@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    background-color:#D9CBA3;
+    font-size:18px;
+    text-align: center;
+  }
+  
+  #grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(var(--colNum), 45px);
+    grid-template-rows: repeat(var(--rowNum), 45px );
+  }
+  
+  .game-button {
+    background: none;
+    border-color: white;
+    background-color: #F2BDA8;
+    text-align: center;
+    outline: none;
+  }
+  
+  .game-button:active {
+    border-style: outset;
+  }
+  
+  .flag{
+      color:red;
+  }
+     
+  .bomb {
+    color: white;
+    background-color:#8DA593;
+    text-align: center;
+    border: 1px solid white;
+
+  }
+
+  .bombclick{
+    color: white;
+    background-color:#69A557;
+    text-align: center;
+    border: 1px solid white;
+
+  }
+  
+  .flag {
+    font-size:20px;
+  }
+  
+  
+  .score {
+    margin: auto;
+    width: 200px;
+    float: none;
+  }
+  
+  .box {
+    background-color: #D98282;
+    border: 1px solid white;
+  }
+  
+  .mineBox {
+    background-color: red;
+    border: 1px solid white;
+  }
+  
+  .game {
+    padding: 15px;
+  }
+  
+  .score-grid {
+    display: grid;
+    grid-template-columns: 80px ;
+    grid-template-rows: 80px ;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .item{
+    border: 1px black solid;
+  }

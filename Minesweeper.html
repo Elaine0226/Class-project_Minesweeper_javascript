@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="Minesweeper.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Minesweeper.js"></script>
+  </head>
+  <body>
+    <h1>Minesweeper</h1>
+    
+        <span>Height: </span>
+        <input type="text" id="height"><br>
+        
+        <span>Width: </span>
+        <input type="text" id="width"><br>
+
+        <span>Number of Mines: </span>
+        <input type="text" id="mines"><br><br>
+
+      <button type='button' id='new-game'>Start</button>
+
+    <div class="game">
+      <div class="score">
+        <span id="remaining">Mines Remaining: </span><br>
+        <span id="time">Time: </span>
+      </div>
+      <div id="grid-container"></div>
+    </div>
+    High Scores:
+      <div class="high-scores"></div>
+    </div>
+  </body>
+</html>
